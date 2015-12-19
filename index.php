@@ -1,8 +1,8 @@
 <?php
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'smashcamp');
-define('DB_USER', 'smashcamp');
-define('DB_PASS', 'BFayRQJJHBj3XKUC');
+define('DB_NAME', 'databasename');
+define('DB_USER', 'username');
+define('DB_PASS', 'password');
 
 $DBH = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME, DB_USER, DB_PASS);
 
